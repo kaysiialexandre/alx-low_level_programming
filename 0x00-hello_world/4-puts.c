@@ -3,14 +3,16 @@
 /**
  * main - Entry point
  *
- * return: always 0 (succes)
+ * return: always 0
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
-	return(0); /**
-		     * returnvalue - returns value of main
-		     *
-		     *
-		     */
+	
+	/**
+	 * returnvalue - return value for main
+	 *
+	 * return: always 0
+	 */
+	return(0);
 }
