@@ -9,16 +9,14 @@ int main(void)
 {
 	int alphabts;
 
-	alphabts = 'a';
-
-	while (alphabts <= 'z')
+	for (alphabts = 'a'; alphabts <= 'z'; alphabts++)
 	{
+
 		if (alphabts == 'q' || alphabts == 'e')
 		{
 			continue;
 		}
 		putchar(alphabts);
-		alphabts += 1;
 	}
 	putchar('\n');
 	return (0);
