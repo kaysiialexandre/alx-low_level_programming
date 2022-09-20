@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "2-strlen.c"
 /**
  * _strcpy - Copies a string pointed to by @src, including the
  * terminating null byte, to a buffer pointed to by @dest.
@@ -10,12 +10,11 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int index = 0;
+	int i = 0;
 
-	while (index <= src[index])
+	for (i = 0; i <= _strlen(src); i++)
 	{
-		dest[index] = src[index];
-		index++;
+		dest[i] = src[i];
 	}
 	return (dest);
 }
