@@ -1,0 +1,2 @@
+understanding structures
+using typedefs
